@@ -5,18 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello tab</title>
+    <style>
+        table{
+            color: hotpink;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+        ul{
+            color: ivory;
+            font-family: fantasy;
+            font-size: 15px;
+        }
+        .apple {
+            color: lightblue;
+            font-family: cursive;
+            font-size: 20%;
+        }
+        .pineapple {
+            color: lightgreen;
+            font-family: inherit;
+            font-size: 150%;
+        }
+        .h1 {
+            color: lavender;
+        }
+        #submit_button {
+            background-color: lightsalmon;
+        }
+    </style>
 </head>
-<body style="background-color: green;>
-    <h1><i><u>Hello, you!</u></i></h1>
+<body style="background-color: lemonchiffon;>
+    <h1 class="h1">Hello, you!</h1>
+    <h2 class="h1">Hello, me!</h2>
     <p style="background-color: green;>
     This is a demostation of a paragram. We can have multiple lines.<br>
     One more line</p>
     <img src="https://www.cuhk.edu.hk/chinese/images/cuhk_logo_2x.png?20150907">
     <a href="https://www.cuhk.edu.hk/"> link to CUHK website.</a>
     <ul>
-        <li>apple</li>
+        <li class="apple">apple</li>
         <li>oranges</li>
-        <li>pineapple</li>
+        <li class="pineapple">pineapple</li>
     </ul>
     <table cellspacing="0" cellpadding="5" border="1">
         <tr><th>Student ID</th><th>First name</th><th>Last name</th>
@@ -31,6 +60,6 @@
         <label for="lname">Last name:</label><br>
         <input type="text" id="lname" name="lname" value="Doe"><br><br>
         <input type="submit" value="Submit">
-        <button>Submit</button>
+        <button id="submit_button">Submit</button>
 </body>
 </html>
